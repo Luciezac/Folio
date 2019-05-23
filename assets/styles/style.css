@@ -15,7 +15,6 @@ header
 {
     width: 1143px;
     margin: 0 auto;
-    
 }
 .menu
 {
@@ -88,6 +87,7 @@ PROJECT
 .main
 {
     width: 1143px;
+    height: 700px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -96,15 +96,15 @@ PROJECT
 
 .column1
 {
-    width: 582px;
-    height: 513px;   
+    width: 40%;
+    height: 40%;   
     margin-top: 40px;
 }
 
 .column2
 {
-    width: 370px;
-    height: 250px;
+    width: 40%;
+    height: 40%;
     margin-top: 330px;
 
 }
@@ -119,6 +119,13 @@ PROJECT
     width: 614px;
     height: 404px;   
 }
+
+.illu_project_dev
+{
+    width: 613px;
+    height: 402px;
+}
+
 .number_project
 {
     font-family: OpenSans;
@@ -162,7 +169,17 @@ PROJECT
     color: #454545;
     margin-top: 15px;
     margin-bottom: 0px;
+}
 
+.category_project_dev
+{
+    font-family: PlayfairDisplay;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 4.4px;
+    color: #454545;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
 
 .descri_project
