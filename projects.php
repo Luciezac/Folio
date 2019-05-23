@@ -39,3 +39,16 @@
         <p class="descri_project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magni quasi vero eligendi! Fuga rem natus omnis molestias magnam a officia aliquid aut distinctio eum eos minus, obcaecati repellat rerum.</p>
     </div>
 </div>
+
+<!-- CONCEPT -->
+<div class="main">
+    <div class="column1">
+        <img class="illu_project_concept" src="assets/images/concept.svg" alt="illu concept">
+    </div>
+    
+    <div class="column2">
+        <p class="number_project">PROJECT N°5</p>
+        <p class="category_project_concept">CONCEPT</p>
+        <p class="descri_project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magni quasi vero eligendi! Fuga rem natus omnis molestias magnam a officia aliquid aut distinctio eum eos minus, obcaecati repellat rerum.</p>
+    </div>
+</div>

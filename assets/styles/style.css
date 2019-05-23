@@ -87,6 +87,7 @@ PROJECT
 .main
 {
     width: 1143px;
+    height: 75%;
     height: 700px;
     margin: 0 auto;
     display: flex;
@@ -98,14 +99,14 @@ PROJECT
 {
     width: 40%;
     height: 40%;   
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .column2
 {
     width: 40%;
     height: 40%;
-    margin-top: 330px;
+    margin-top: 300px;
 
 }
 .illu_project_event
@@ -126,6 +127,11 @@ PROJECT
     height: 402px;
 }
 
+.illu_project_concept
+{
+    width: 583px;
+    height: 440px;
+}
 .number_project
 {
     font-family: OpenSans;
@@ -180,6 +186,14 @@ PROJECT
     color: #454545;
     margin-top: 15px;
     margin-bottom: 0px;
+}
+
+.category_project_concept
+{
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 300;
+    color: #454545;
 }
 
 .descri_project
