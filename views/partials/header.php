@@ -18,6 +18,7 @@
         <div class="buttons">
             <a class="name" href="projects.php">PROJECTS</a>
             <a class="name" href="about.php">ABOUT ME</a>
+            <a class="name" href="contact.php">CONTACT</a>
         </div>
     </div>
 

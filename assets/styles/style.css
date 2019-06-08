@@ -1,11 +1,12 @@
-*
-{
-    background-color: #fcfcfc;
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
 }
+
 body
 {
-    width: 100vw;
-    height: 100vh;
+    background-color: #f9f9f9;
 }
 /**
 HEADER
@@ -13,7 +14,7 @@ HEADER
 
 header
 {
-    width: 1143px;
+    max-width: 1143px;
     margin: 0 auto;
 }
 .menu
@@ -51,9 +52,9 @@ header
     background-color: #e0e8fb;
     display: block;
     position: absolute;
-    top: 8px;
-    left: 0;
-    z-index: 0;
+    top: 12px;
+    left: 2px;
+    z-index: -5;
 }
 
 .name
@@ -99,7 +100,7 @@ PROJECT
 {
     width: 40%;
     height: 40%;   
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .column2
@@ -132,6 +133,13 @@ PROJECT
     width: 583px;
     height: 440px;
 }
+
+.illu_project_design
+{
+    width: 642px;
+    height: 421px;
+}
+
 .number_project
 {
     font-family: OpenSans;
@@ -147,12 +155,12 @@ PROJECT
     content: "";
     width: 154px;
     height: 9px;
-    background-color: #e0e8fb;
+    background-color: #fffbca;
     display: block;
     position: absolute;
     top: 15px;
-    left: 0;
-    z-index: 0;
+    left: 6px;
+    z-index: -5;
 }
 
 
@@ -190,9 +198,23 @@ PROJECT
 
 .category_project_concept
 {
-    font-family: OpenSans;
-    font-size: 18px;
-    font-weight: 300;
+    width: 338px;
+    height: 72px;
+    font-family: PlayfairDisplay;
+    font-size: 54px;
+    font-weight: bold;
+    letter-spacing: 5.2px;
+    color: #454545;
+}
+
+.category_project_design
+{
+    width: 203px;
+    height: 60px;
+    font-family: PlayfairDisplay;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 5.2px;
     color: #454545;
 }
 
@@ -207,11 +229,275 @@ PROJECT
 
 
 /**
-SHIT
+HOME PAGE
 **/
 
-.chien
+
+.intro
 {
-    width: 800px;
+    max-width: 1143px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 8rem;
+}
+
+.pic_column
+{
+    width: 30%;
+    margin-top: 55px;
+}
+
+.presentation_column
+{
+    width: 50%;
+    margin-top: 250px;
+}
+
+.illu_intro 
+{
+    width: 340px;
     height: 600px;
+}
+.name_who
+{
+    margin-bottom: 0;
+    font-family: PlayfairDisplay;
+    font-size: 54px;
+    color: #454545;
+}
+
+.sublue
+{
+    position: relative;
+}
+
+.sublue::before
+{
+    content: "";
+    width: 100%;
+    height: 14px;
+    background-color: #e0e8fb;
+    display: block;
+    position: absolute;
+    top: 44px;
+    left: 17px;
+    z-index: -5;
+}
+
+.name_who_little
+{
+    height: 90px;
+    font-family: OpenSans;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #454545;
+}
+
+.click
+{
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.see_my_projects
+{
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #454545;
+    text-decoration: none;
+}
+
+/**
+About ME
+**/
+
+.partpresentation h2
+{
+    font-family: PlayfairDisplay;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 5.2px;
+    color: #454545;
+    text-align: center; 
+}
+
+.presentation
+{
+    max-width: 1143px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 8rem;
+}
+
+.photome
+{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.mypic
+{
+    width: 300px;
+    height: 450px;
+}
+
+.textinfo
+{
+    width: 40%;
+    height: 90px;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: 300;
+    color: #454545;  
+}
+
+.textinfo a 
+{
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: 300;
+    color: #454545;  
+}
+
+.partcompetence
+{
+    margin-top: 80px;
+}
+
+.partcompetence h2
+{
+    font-family: PlayfairDisplay;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 5.2px;
+    color: #454545;
+    text-align: center;
+
+}
+
+.competences
+{
+    max-width: 1143px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.cline
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.comp
+{
+    width: 80%;
+    height: 103%;
+    margin: 0 auto;
+}
+.comp h2
+{
+    font-family: OpenSans;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #454545;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.comp h2::before
+{
+    content: "";
+    width: 69%;
+    height: 14px;
+    background-color: #BFE0D8;
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 38px;
+    z-index: -5;
+}
+
+
+.comp p
+{
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 300;
+    color: #454545;
+    text-align: center;
+}
+
+.partqualites
+{
+    margin-top: 80px;
+}
+
+.partqualites h2
+{
+    font-family: PlayfairDisplay;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 5.2px;
+    color: #454545;
+    text-align: center;   
+}
+
+.qualites
+{
+    max-width: 1143px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.qline
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.qual
+{
+    width: 20%;
+    height: 90%;
+    margin: 0 auto; 
+}
+
+.qual h2
+{
+    font-family: OpenSans;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #454545;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.qual h2::before
+{
+    content: "";
+    width: 69%;
+    height: 14px;
+    background-color: #DFD9F5;
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 38px;
+    z-index: -5;
 }
