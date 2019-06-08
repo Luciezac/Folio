@@ -1,21 +1,24 @@
-<?php include 'views/partials/header.php' ?>
+<?php
 
-<div class="intro">
+include 'database.php';
 
-    <div class="pic_column">
-        <img class="illu_intro" src="assets/images/homepage.svg" alt="illu comm">
-    </div>
-    
-    <div class="presentation_column">
-        <div class="text_intro">
-            <p class="name_who">Hello, <br> I'm <span class="sublue"> Lucie zaccardi</span> ! </p>
-            <p class="name_who_little">and I'm looking for a three month internship as project manager from <span class="grass">July 1</span> to <span class="grass">October 4.</span></p>
-        </div>
-        
-        <div class="click">
-            <a class="see_my_projects" href="projects.php">SEE MY PROJECTS</a>
-        </div>
-    </div>
-</div>
+/**
+ * Routing
+ */
 
-<?php include 'views/partials/footer.php' ?>
+define('URL', 'http://localhost/lucie-port/');
+
+$q = !empty($_GET['q']) ? $_GET['q'] : 'home';
+
+$view = '404';
+
+if ($q == 'home') {
+    $view = 'home';
+} else if ($q == 'about') {
+    $view = 'about';
+} else if ($q == 'projects') {
+    $view = 'projects';
+} 
+
+
+include './views/pages/' . $view . '.php';

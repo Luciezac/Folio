@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="<?= URL ?>assets/styles/style.css">
     <title>Home page</title>
 </head>
 
@@ -12,13 +12,13 @@
 
     <div class="menu">
         <a class="logo_link" href="index.php">
-            <img class="logo" src="assets/images/logo.svg" alt="logo">
+            <img class="logo" src="<?= URL ?>assets/images/logo.svg" alt="logo">
         </a>
 
         <div class="buttons">
-            <a class="name" href="projects.php">PROJECTS</a>
-            <a class="name" href="about.php">ABOUT ME</a>
-            <a class="name" href="contact.php">CONTACT</a>
+            <a class="name" href="<?= URL ?>projects">PROJECTS</a>
+            <a class="name" href="<?= URL ?>about">ABOUT ME</a>
+            <a class="name" href="<?= URL ?>contact">CONTACT</a>
         </div>
     </div>
 
