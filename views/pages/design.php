@@ -1,7 +1,7 @@
-<?php include '../partials/header.php' ?>
+<?php include 'views/partials/header.php' ?>
 
 <div class=cat1>
-    <img src="../../assets/images/article/developement.svg" alt="">
+    <img src="<?= URL ?>assets/images/article/developement.svg" alt="">
 </div>
 
 <div class="cat2">
@@ -21,9 +21,9 @@
     </div>
 
     <div class="images_proj">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <img src="<?= URL ?>" alt="">
+        <img src="<?= URL ?>" alt="">
+        <img src="<?= URL ?>" alt="">
+        <img src="<?= URL ?>" alt="">
     </div>
 </div>

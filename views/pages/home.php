@@ -3,7 +3,7 @@
 <div class="intro">
 
     <div class="pic_column">
-        <img class="illu_intro" src="assets/images/homepage.svg" alt="illu comm">
+        <img class="illu_intro" src="<?= URL ?>assets/images/homepage.svg" alt="illu comm">
     </div>
     
     <div class="presentation_column">
@@ -13,7 +13,7 @@
         </div>
         
         <div class="click">
-            <a class="see_my_projects" href="projects.php">SEE MY PROJECTS</a>
+            <a class="see_my_projects" href="<?= URL ?>/views/pages/projects.php">SEE MY PROJECTS</a>
         </div>
     </div>
 </div>

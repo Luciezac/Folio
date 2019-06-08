@@ -1,6 +1,6 @@
 <?php 
 
-include 'partials/header.php';
+include 'views/partials/header.php';
 
     //Sending a complete form 
     $messages = [

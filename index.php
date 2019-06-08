@@ -6,7 +6,7 @@ include 'database.php';
  * Routing
  */
 
-define('URL', 'http://localhost/lucie-port/');
+define('URL', 'http://localhost:8888/portfolio/');
 
 $q = !empty($_GET['q']) ? $_GET['q'] : 'home';
 
@@ -18,7 +18,21 @@ if ($q == 'home') {
     $view = 'about';
 } else if ($q == 'projects') {
     $view = 'projects';
+} else if ($q == 'comm') {
+    $view = 'communication';
+} else if ($q == 'concept') {
+    $view = 'concept';
+} else if ($q == 'contact') {
+    $view = 'contact';
+} else if ($q == 'design') {
+    $view = 'design';
+} else if ($q == 'dev') {
+    $view = 'developpement';
+} else if ($q == 'event') {
+    $view = 'event';
 } 
+
+
 
 
 include './views/pages/' . $view . '.php';

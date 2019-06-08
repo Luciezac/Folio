@@ -6,7 +6,7 @@
 
     <div class="presentation">
         <div class=photome>
-            <img class="mypic" src="assets/images/me.jpg" alt="">
+            <img class="mypic" src="<?= URL ?>assets/images/me.jpg" alt="">
         </div>
 
         <div class="textinfo">
