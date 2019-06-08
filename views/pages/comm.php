@@ -1,7 +1,7 @@
 <?php include 'views/partials/header.php' ?>
 
 <div class=cat1>
-    <img src="<?= URL ?>assets/images/article/developement.svg" alt="">
+    <img src="<?= URL ?>assets/images/article/communication.svg" alt="">
 </div>
 
 <div class="cat2">
@@ -9,10 +9,10 @@
 
     <div class="content_proj">
         <div class="roles">
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <h3>RÔLE</h3>
+            <p>CHEF DE PROJET</p>
+            <h3>CLIENT</h3>
+            <p>PROJET PÉDAGOGIQUE</p>
         </div>
 
         <div class="text_proj">

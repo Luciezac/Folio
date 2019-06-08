@@ -13,7 +13,7 @@
         </div>
         
         <div class="click">
-            <a class="see_my_projects" href="<?= URL ?>/views/pages/projects.php">SEE MY PROJECTS</a>
+            <a class="see_my_projects" href="<?= URL ?>projects">SEE MY PROJECTS</a>
         </div>
     </div>
 </div>
