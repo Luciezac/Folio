@@ -18,14 +18,19 @@
         </div>
 
         <div class="text_proj">
-            <p>Disney à lancé un appel d'offre pour l'ouverture de ses 3 prochaines pôles d'attraction du parc : Star Wars, Marvel et Frozen qui ouvriront en 2025. Avec mon équipe nous avons donc élaboré un plan de communication en plusieurs étapes des 6 années à venir avec des évènements, des partenariats, des mini parcs dans plusieurs villes, des jeux vidéos, etc.</p>
+            <p>Disney à lancé un appel d'offre pour l'ouverture de ses 3 prochaines pôles d'attraction du parc : Star Wars, Marvel et Frozen qui ouvriront en 2025. Avec mon équipe nous avons donc élaboré un plan de communication des 6 années à venir  qui répondais aux problématiques vis à vis de nos cibles, conccurrents, des valeurs de Disney, etc.</p>
+
+            <p>Notre plan de communication prend la forme d'un purchase funnel. D'abord la notoriété avec de la publicité classique de Disney et la mise en place d'une exposition sur les nouveaux parcs, la considération avec le lancement d'un jeu vidéo, la préférence avec l'ouverture d'un mini parc, l'acte d'achat avec des partenariats et offres et enfin la fidélisation avec des offres et activités dès larrivée dans le parc.</p>
+
+
         </div>
     </div>
 
     <div class="images_proj">
-        <img src="<?= URL ?>" alt="">
-        <img src="<?= URL ?>" alt="">
-        <img src="<?= URL ?>" alt="">
-        <img src="<?= URL ?>" alt="">
+        <img src="<?= URL ?>assets/images/disney_png/action_plan.png" alt="disney">
+        <img src="<?= URL ?>assets/images/disney_png/concept_disney_2.png" alt="disney">
+        <img src="<?= URL ?>assets/images/disney_png/concept_disney.png" alt="disney">
+        <img src="<?= URL ?>assets/images/disney_png/concept_disney_3.png" alt="disney">
+        <img src="<?= URL ?>assets/images/disney_png/usual_ad.png" alt="disney">
     </div>
 </div>

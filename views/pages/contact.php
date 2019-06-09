@@ -63,50 +63,62 @@ include 'views/partials/header.php';
     }
 ?>
 
-<form  class="all" action="#" method="post" enctype="multipart/form-data">
+<div class=page>
 
-    <div class="form">
-        <div class="element">
-            <label for="nom">Nom</label>
-            <input class="inputBlock" type="text" name="nom" id="nom">
-                <?php if (isset($messages['error']['nom'])): ?>
-                    <p><?=$messages['error']['nom'] ?> </p>
-                <?php endif; ?>
-        </div>
-
-        <div class="element">
-            <label for="prenom">Prénom</label>
-            <input class="inputBlock" type="text" name="prenom" id="prenom">
-                <?php if (isset($messages['error']['prenom'])): ?>
-                    <p><?=$messages['error']['prenom'] ?> </p>
-                <?php endif; ?>
-        </div>
-
-        <div class="element">
-            <label for="societe">Société</label>
-            <input class="inputBlock" name="societe" id="societe">
-                <?php if (isset($messages['error']['societe'])): ?>
-                    <p><?=$messages['error']['societe'] ?> </p>
-                <?php endif; ?>
-        </div>
-
-        <div class="element">
-            <label for="content">Content</label>
-            <textarea class="inputBlock"name="content" id="content" cols="30" rows="10"></textarea>
-                <?php if (isset($messages['error']['content'])): ?>
-                    <p><?=$messages['error']['content'] ?> </p>
-                <?php endif; ?>
-        </div>
-
-        <input class="inputBlock2" type="submit" value="send">
-
+    <div class="illu_form">
+        <img src="assets/images/illu_form.svg" alt="illuform">
     </div>
-</form>
+
+    <div class="contact_form">
+
+        <div>
+            <h2>Travaillons ensemble!</h2>
+        </div>
+
+        <form  class="all" action="#" method="post" enctype="multipart/form-data">
+
+            <div class="form">
+                <div class="element">
+                    <label for="nom">Nom</label>
+                    <input class="inputBlock" type="text" name="nom" id="nom">
+                        <?php if (isset($messages['error']['nom'])): ?>
+                            <p><?=$messages['error']['nom'] ?> </p>
+                        <?php endif; ?>
+                </div>
+
+                <div class="element">
+                    <label for="prenom">Prénom</label>
+                    <input class="inputBlock" type="text" name="prenom" id="prenom">
+                        <?php if (isset($messages['error']['prenom'])): ?>
+                            <p><?=$messages['error']['prenom'] ?> </p>
+                        <?php endif; ?>
+                </div>
+
+                <div class="element">
+                    <label for="societe">Société</label>
+                    <input class="inputBlock" name="societe" id="societe">
+                        <?php if (isset($messages['error']['societe'])): ?>
+                            <p><?=$messages['error']['societe'] ?> </p>
+                        <?php endif; ?>
+                </div>
+
+                <div class="element">
+                    <label for="content">Message</label>
+                    <textarea class="inputBlock"name="content" id="content" cols="30" rows="10"></textarea>
+                        <?php if (isset($messages['error']['content'])): ?>
+                            <p><?=$messages['error']['content'] ?> </p>
+                        <?php endif; ?>
+                </div>
+
+                <input class="inputBlock2" type="submit" value="ENVOYÉ">
+
+            </div>
+        </form>
+    </div>
+</div>
 
 
 
 
-<h3>DESIGN BY MANON BUEE</h3>
-<h3>CODE BY LULUBG</h3>
 
 

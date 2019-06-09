@@ -149,7 +149,7 @@ PROJECTS PRESENTATION
     .main
     {
         width:auto;
-        height: 770px;
+        height: 700px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -159,11 +159,17 @@ PROJECTS PRESENTATION
     {
         margin-top:0px;
         width: 100%;
-    height: 0%;
+        height: 0%;
     }
     .column2
     {
         width:auto;
+        margin-top: 200px;
+    }
+
+    .category_project a
+    {
+        font-size: 0.8em;
     }
 }
 .illu_project
@@ -199,53 +205,8 @@ PROJECTS PRESENTATION
     color: #454545;
 }
 
-.category_project_comm
+.category_project
 {
-    font-family: 'Playfair Display', serif;
-    font-size: 45px;
-    font-weight: bold;
-    letter-spacing: 5.2px;
-    color: #454545;
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-.category_project_event
-{
-    font-family: 'Playfair Display', serif;
-    font-size: 54px;
-    font-weight: bold;
-    letter-spacing: 5.2px;
-    color: #454545;
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-
-.category_project_dev
-{
-    font-family: 'Playfair Display', serif;
-    font-size: 45px;
-    font-weight: bold;
-    letter-spacing: 4.4px;
-    color: #454545;
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-
-.category_project_concept
-{
-    width: 338px;
-    height: 72px;
-    font-family: 'Playfair Display', serif;
-    font-size: 54px;
-    font-weight: bold;
-    letter-spacing: 5.2px;
-    color: #454545;
-}
-
-.category_project_design
-{
-    width: 203px;
-    height: 60px;
     font-family: 'Playfair Display', serif;
     font-size: 45px;
     font-weight: bold;
@@ -350,6 +311,37 @@ HOME PAGE
     letter-spacing: 3px;
     color: #454545;
     text-decoration: none;
+}
+
+@media all and (max-width: 400px)
+{
+    .intro
+    {
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        flex-direction: column;
+    }
+
+    .pic_column
+    {
+        width: 78%;
+        margin: 0 auto;
+    }
+
+    .illu_intro
+    {
+        width: 100%;
+        height: 20%;
+    }
+
+    .presentation_column
+    {
+        width: 100%;
+        margin-top: 0px;
+    }
 }
 
 /**
@@ -548,6 +540,11 @@ About ME
         flex-direction: column;
     }
 
+    .photome
+    {
+        width: 60%;
+        margin: 0 auto;
+    }
     .mypic
     {
         width: 220px;
@@ -556,8 +553,8 @@ About ME
 
     .textinfo
     {
-        width: 50%;
-        height: 700px;
+        width: 80%;
+        height: 610px;
         margin: 0 auto;
     }
     .textinfo p 
@@ -747,7 +744,6 @@ PROJECT ONE BY ONE
 .text_proj_concept
 {
     width: 60%;
-    height: 297px;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -832,4 +828,106 @@ PROJECT ONE BY ONE
         width: auto;
         height: 725px;
     }
+}
+
+/**
+** CONTACT
+**/
+.illu_form
+{
+    width: 50%;
+    height: 100vh;
+}
+
+.illu_form img
+{   
+
+    transform: translate(-2%, -18%);
+    border: solid 1px #979797;
+    background-color: #e0e8fb;
+}
+
+.contact_form
+{   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form 
+{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.form .element 
+{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form .element label 
+{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1.7px;
+    color: #979797;
+}
+.inputBlock {
+
+    background-color: #f9f9f9;
+    border: solid 1px #979797;
+    width: 397px;
+    height: 41px;
+}
+.inputBlock2
+{
+    background-color: #e0e8fb;
+    width: 397px;
+    height: 43px;
+    margin-top: 10px;
+    font-family: PlayfairDisplay;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    color: #ffffff;
+}
+
+.one
+{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.contact_form div h2
+{
+    width: 80%;
+    padding: 1rem 1rem;
+    font-family: PlayfairDisplay;
+    font-size: 31px;
+    letter-spacing: 1.7px;
+    color: #3d3d3d;
+    position: relative;
+}
+
+.contact_form div h2::before
+{
+    content: "";
+    width: 74%;
+    height: 12px;
+    background-color: #e0e8fb;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 23px;
+    z-index: -5;
 }
