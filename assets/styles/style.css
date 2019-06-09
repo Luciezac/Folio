@@ -163,7 +163,11 @@ PROJECTS PRESENTATION
     left: 6px;
     z-index: -5;
 }
-
+.column2 p a
+{
+    text-decoration: none;
+    color: #454545;
+}
 
 .category_project_comm
 {

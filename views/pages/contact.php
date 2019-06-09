@@ -109,4 +109,4 @@ include 'views/partials/header.php';
 <h3>DESIGN BY MANON BUEE</h3>
 <h3>CODE BY LULUBG</h3>
 
-<?php include 'partials/footer.php' ?>
+

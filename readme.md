@@ -4,21 +4,19 @@ This project presents the numberous and diverse project Luce has made in the pas
 
 # Designer and Developer 
 
-Manon Buée (H2 - G1) was the designer of this project.
+Manon Buée (H2 - G1) was the designer of this project (the illustrations, the web interface, etc.)
 
-Lucie Zaccardi the Developper
+Lucie Zaccardi the Developper.
 
 ## Features Presentation 
 
-- A form where we can add our expenses with the name of the object and the date 
+- One page where all types of projects are summarized and presented.
 
-- A table listing the expenses recorded with date
+- A contact page with a form (related to the database) to contact me quickly. But also my links Linkedin, Behance, Tumblr and Mail. 
 
-- An error message and success
+- One page about me with my competences and qualities. 
 
-- The ability to delete an expense
-
-- an attempt to do the total of the expenses
+- A home page with a presentation of my folio. 
 
 
 ## Ressources
@@ -30,4 +28,4 @@ Lucie Zaccardi the Developper
 
 ## Author
 
-**Lucie ZACCARDI** 
+**Lucie ZACCARDI & Manon Buée** 
