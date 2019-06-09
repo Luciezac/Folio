@@ -16,6 +16,7 @@ header
 {
     max-width: 1143px;
     margin: 0 auto;
+    position: relative;
 }
 .menu
 {
@@ -82,7 +83,7 @@ header
 
 
 /**
-PROJECT
+PROJECTS PRESENTATION
 **/
 
 .main
@@ -501,3 +502,109 @@ About ME
     left: 38px;
     z-index: -5;
 }
+
+
+/**
+PROJECT ONE BY ONE
+**/
+
+/**.cat1 img
+{
+    position: absolute;
+    transform: translate(0%, -20%);
+    z-index: -100;
+}**/
+
+.cat2 h2
+{
+    font-family: PlayfairDisplay;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #454545;
+    border-bottom: solid 1px #e7e7e7;
+    text-align: center;
+    margin: 5rem 0px;
+}
+
+.content_proj .roles h3
+{
+    font-family: PlayfairDisplay;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    color: #454545;
+    position: relative;
+}
+
+.content_proj .roles h3::before
+{
+    content: "";
+    width: 29%;
+    height: 14px;
+    background-color: #f1dfd0;
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: -1px;
+    z-index: -5;
+}
+
+.content_proj
+{
+    max-width: 1143px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.roles
+{
+    width: 30%;
+}
+.roles p
+{
+    width: 316px;
+    height: 27px;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    color: #454545;
+}
+
+.text_proj
+{
+    width: 60%;
+    height: 297px;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    color: #454545;
+}
+
+.images_proj_dev
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.images_proj_dev img
+{
+    width: 397px;
+    height: 706px;
+    margin: 3rem 4rem;
+}
+
+.images_proj img
+{
+    width: 70%;
+    margin: 0 auto;
+}
+

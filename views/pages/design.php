@@ -47,9 +47,9 @@
         </div>
     </div>
 
-    <div class="images_proj">
-        <img src="<?= URL ?>assets/images/bonbon/Andoid.png" alt="android interfaces">
-        <img src="<?= URL ?>assets/images/bonbon/Andoid 2.png" alt="androif interface">
+    <div class="images_proj_dev">
+        <img src="<?= URL ?>assets/images/bonbon/android.png" alt="android le bonbon interfaces">
+        <img src="<?= URL ?>assets/images/bonbon/android2.png" alt="android le bonbon interface">
     </div>
 </div>
 

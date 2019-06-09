@@ -5,7 +5,7 @@
 </div>
 
 <div class="cat2">
-    <h2></h2>
+    <h2>APPEL S'OFFRE DISNEY</h2>
 
     <div class="content_proj">
         <div class="roles">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="text_proj">
-            <p></p>
+            <p>Disney à lancé un appel d'offre pour l'ouverture de ses 3 prochaines pôles d'attraction du parc : Star Wars, Marvel et Frozen qui ouvriront en 2025. Avec mon équipe nous avons donc élaboré un plan de communication en plusieurs étapes des 6 années à venir avec des évènements, des partenariats, des mini parcs dans plusieurs villes, des jeux vidéos, etc.</p>
         </div>
     </div>
 

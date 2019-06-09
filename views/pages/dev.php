@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div class="images_proj">
+    <div class="images_proj_dev">
         <img src="<?= URL ?>assets/images/sendr/sendr.png" alt="sendr img">
         <img src="<?= URL ?>assets/images/sendr/sendr2.png" alt="sendr img">
         <img src="<?= URL ?>assets/images/sendr/sendr3.png" alt="sendr img">
