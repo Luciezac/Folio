@@ -66,9 +66,6 @@ header
     font-family: 'OpenSans', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
     letter-spacing: 3px;
     color: #454545;
     text-decoration: none;
@@ -81,6 +78,34 @@ header
     height: 0px;
     border: solid 1px #454545;
 }
+
+@media all and (max-width: 400px)
+{
+    .menu
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .name
+    {
+       font-size: 12px; 
+       height: 10px;
+       margin-top: 20px;
+    }
+    
+    .separator
+    {
+        display: none;
+    }
+}
+
 
 
 /**
@@ -97,6 +122,8 @@ PROJECTS PRESENTATION
     justify-content: space-between;
 }
 
+
+
 .column1
 {
     width: 40%;
@@ -110,6 +137,28 @@ PROJECTS PRESENTATION
     height: 40%;
     margin-top: 300px;
 
+}
+
+@media all and (max-width: 400px)
+{
+    .main
+    {
+        width:auto;
+        height: 770px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column1
+    {
+        margin-top:0px;
+    }
+    .column2
+    {
+        width:auto;
+        margin-top: 150px;
+    }
 }
 .illu_project_event
 {
@@ -355,7 +404,7 @@ About ME
 .mypic
 {
     width: 300px;
-    height: 450px;
+    
 }
 
 .textinfo
@@ -505,6 +554,101 @@ About ME
     top: 9px;
     left: 38px;
     z-index: -5;
+}
+
+@media all and (max-width: 400px)
+{
+    .presentation
+    {
+        width: auto;
+        margin: 0 auto;
+        padding: 0px 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mypic
+    {
+        width: 220px;
+        margin: 0 auto;
+    }
+
+    .textinfo
+    {
+        width: 50%;
+        height: 700px;
+        margin: 0 auto;
+    }
+    .textinfo p 
+    {
+        width: 290px;
+        margin: 0 auto;
+        padding: 1rem 0px;
+    }
+
+    .competences
+    {
+        width:auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .comp
+    {
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comp h2::before
+    {
+        content: "";
+        width: 49%;
+        height: 14px;
+        background-color: #BFE0D8;
+        display: block;
+        position: absolute;
+        top: 12px;
+        left: 115px;
+        z-index: -5;
+        margin: 0 auto;
+    }
+
+    .qualites
+    {
+        width:auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .qline
+    {
+        flex-direction: column;
+    }
+
+    .qual
+    {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .qual h2::before
+    {
+        content: "";
+        width: 101%;
+        height: 14px;
+        background-color: #DFD9F5;
+        display: block;
+        position: absolute;
+        top: 18px;
+        left: -1px;
+        z-index: -5;
+    }
+    
+
+
 }
 
 

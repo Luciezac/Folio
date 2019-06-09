@@ -89,22 +89,21 @@
         <div class="qline">
             <div class="qual">
                 <h2>Passionnée</h2>
-                <p></p>
             </div>
 
             <div class="qual">
                 <h2>Rigoureuse</h2>
-                <p></p>    
+
             </div>
             
             <div class="qual">
                 <h2>Créative</h2>
-                <p></p>
+
             </div>
 
             <div class="qual">
                 <h2>Énergique</h2>
-                <p></p>
+
             </div>
 
         </div>
