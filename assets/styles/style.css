@@ -79,7 +79,7 @@ header
     border: solid 1px #454545;
 }
 
-@media all and (max-width: 400px)
+@media all and (max-width: 600px)
 {
     .menu
     {
@@ -144,7 +144,7 @@ PROJECTS PRESENTATION
 
 }
 
-@media all and (max-width: 400px)
+@media all and (max-width: 600px)
 {
     .main
     {
@@ -313,7 +313,7 @@ HOME PAGE
     text-decoration: none;
 }
 
-@media all and (max-width: 400px)
+@media all and (max-width: 600px)
 {
     .intro
     {
@@ -529,7 +529,7 @@ About ME
     z-index: -5;
 }
 
-@media all and (max-width: 400px)
+@media all and (max-width: 600px)
 {
     .presentation
     {
@@ -823,7 +823,7 @@ PROJECT ONE BY ONE
     justify-content: center;  
 }
 
-@media all and (max-width: 400px)
+@media all and (max-width: 600px)
 {
     .cat1 img 
     {
@@ -980,7 +980,7 @@ PROJECT ONE BY ONE
     z-index: -5;
 }
 
-@media all and (max-width: 400px)
+@media all and (max-width: 600px)
 {
     .illu_form
     {

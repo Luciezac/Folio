@@ -48,7 +48,7 @@
         </div>
 
         <div class="text_proj_dev">
-            <p>En première année nous avons eu un projet de développement web ou j’ai été chef de projet. Nous avons du démarcher notre premier vrai client pour lui concevoir un site de la conception à la mise en ligne.</p> 
+            <p>En première année nous avons eu un projet de développement web ou j’ai été chef de projet. Nous avons du démarcher notre premier vrai client pour lui concevoir un site, de la conception à la mise en ligne.</p> 
 
             <p>Se diversifiant pour de nouveau services, l’agence avait pour projet une plateforme de recrutement pour les chauffeurs de voiture de luxe. Il fallait donc présenter leur concept déjà existant, leur valeurs, leur équipe, les compétences et le matériel requis. Tout ceci de manière rapide, efficace et claire. </p>
 

@@ -20,7 +20,7 @@
         <div class="text_proj_design">
             <p>J’ai effectué divers et nombreux exercices de design pour m’entrainer sur des logiciels tels que  Figma, Illustrator, Photoshop, Indesign ou Illustrator. </p>
             
-            <p>Le premier sur la typographie ou j’ai fait 4 interface différentes en devant utiliser toujours la même direction artistique, typographie et couleur. Une introduction d’article de blog, un navigateur de chapitre, un navigateur de photos et une page d’achat de série photo.</p>
+            <p>Le premier sur la typographie ou j’ai fait 4 interfaces différentes en devant utiliser toujours la même direction artistique, typographie et couleur. Une introduction d’article de blog, un navigateur de chapitre, un navigateur de photos et une page d’achat de série photo.</p>
 
         </div>
     </div>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="text_proj">
-            <p>Pour un exercice et entrainement des guidelines Android j'ai refait le design de la page d'accceuil et d'une page d'event de l'application Le Bonbon.</p>
+            <p>Pour un exercice d'entrainement des guidelines Android j'ai refait le design de la page d'accceuil et d'une page d'event de l'application Le Bonbon.</p>
         </div>
     </div>
 
