@@ -5,7 +5,9 @@
 </div>
 
 <div class="cat2">
-    <h2>APPEL S'OFFRE DISNEY</h2>
+    <div class="bottom">
+        <h2>APPEL D'OFFRE DISNEY</h2>
+    </div>
 
     <div class="content_proj">
         <div class="roles">

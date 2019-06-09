@@ -5,7 +5,9 @@
 </div>
 
 <div class="cat2">
-    <h2>S E N D R</h2>
+    <div class="bottom">
+        <h2>S E N D R</h2>
+    </div>
 
     <div class="content_proj">
         <div class="roles">
@@ -33,7 +35,9 @@
 </div>
 
 <div class="cat2">
-    <h2>SERVICE PRESTIGE</h2>
+    <div class="bottom">
+        <h2>SERVICEPRESTIGE</h2>
+    </div>
 
     <div class="content_proj">
         <div class="roles">

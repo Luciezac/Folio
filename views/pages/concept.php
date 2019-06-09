@@ -5,7 +5,9 @@
 </div>
 
 <div class="cat2">
-    <h2>THE GREEN THUMB</h2>
+    <div class="bottom">
+        <h2>THE GREEN THUMB</h2>
+    </div>
 
     <div class="content_proj">
         <div class="roles">
@@ -30,7 +32,9 @@
 </div>
 
 <div class="cat2">
-    <h2>CREHAPPY</h2>
+    <div class="bottom">
+        <h2>CREHAPPY</h2>
+    </div>
 
     <div class="content_proj">
         <div class="roles">
@@ -50,8 +54,9 @@
     </div>
 
     <div class="images_proj">
-        <img src="<?= URL ?>assets/images/green/Landing_page.png" alt="maquete plant">
-        <img src="<?= URL ?>assets/images/green/MyPlant.png" alt="maquette plant">
-        <img src="<?= URL ?>assets/images/green/add_plant.png" alt="maquette plant">
+        <img src="<?= URL ?>assets/images/crehappy/landing.png" alt="maquete plant">
+        <img src="<?= URL ?>assets/images/crehappy/journal.png" alt="maquette plant">
+        <img src="<?= URL ?>assets/images/crehappy/recherche.png" alt="maquette plant">
+        <img src="<?= URL ?>assets/images/crehappy/theme.png" alt="maquette plant">
     </div>
 </div>

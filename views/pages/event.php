@@ -5,7 +5,10 @@
 </div>
 
 <div class="cat2">
-    <h2>L'ASSO6</h2>
+    <div class="bottom">
+        <h2>L'ASSO6</h2>
+    </div>
+    
 
     <div class="content_proj">
         <div class="roles">
@@ -20,7 +23,7 @@
         </div>
     </div>
 
-    <div class="images_proj">
+    <div class="images_proj_asso">
         <img src="<?= URL ?>assets/images/asso6.svg" alt="logo asso">
     </div>
 </div>

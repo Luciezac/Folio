@@ -5,7 +5,9 @@
 </div>
 
 <div class="cat2">
-    <h2>TIPOGRAPHIE</h2>
+    <div class="bottom">
+        <h2>TIPOGRAPHIE</h2>
+    </div>
 
     <div class="content_proj">
         <div class="roles">
@@ -32,7 +34,9 @@
 </div>
 
 <div class="cat2">
-    <h2>LE BONBON REDISGN APP</h2>
+    <div class="bottom">
+        <h2>LE BONBON REDISGN APPLICATION</h2>
+    </div>
 
     <div class="content_proj">
         <div class="roles">
@@ -55,7 +59,9 @@
 
 
 <div class="cat2">
-    <h2>WIKIPEDIA REDISGN</h2>
+    <div class="bottom">
+        <h2>WIKIPEDIA REDISGN</h2>
+    </div>
 
     <div class="content_proj">
         <div class="roles">
