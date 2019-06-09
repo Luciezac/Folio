@@ -17,7 +17,7 @@
             <p>PROJET PÉDAGOGIQUE</p>
         </div>
 
-        <div class="text_proj">
+        <div class="text_proj_design">
             <p>J’ai effectué divers et nombreux exercices de design pour m’entrainer sur des logiciels tels que  Figma, Illustrator, Photoshop, Indesign ou Illustrator. </p>
             
             <p>Le premier sur la typographie ou j’ai fait 4 interface différentes en devant utiliser toujours la même direction artistique, typographie et couleur. Une introduction d’article de blog, un navigateur de chapitre, un navigateur de photos et une page d’achat de série photo.</p>

@@ -17,7 +17,7 @@
             <p>PROJET PÉDAGOGIQUE</p>
         </div>
 
-        <div class="text_proj">
+        <div class="text_proj_dev">
             <p>Pour un projet d'école où j'étais chef de projet, mon équipe et moi avons dû créer une application Android. Le concept : un système de messagerie un peu spécial ou le principe est d'écrire un message qui sera reçu par X utilisateurs de manière totalement anonyme.</p>
 
             <p>Ils pourront y répondre s'ils le souhaitent! Il est possible de gérer les préférences : envoyer des messages à des personnes qui parlent la même langue que soi ou non, à un périmètre que l'on veut, au nombre de personnes que l'on veut, etc.</p>
@@ -47,7 +47,7 @@
             <p>SERVICE PRESTIGE</p>
         </div>
 
-        <div class="text_proj">
+        <div class="text_proj_dev">
             <p>En première année nous avons eu un projet de développement web ou j’ai été chef de projet. Nous avons du démarcher notre premier vrai client pour lui concevoir un site de la conception à la mise en ligne.</p> 
 
             <p>Se diversifiant pour de nouveau services, l’agence avait pour projet une plateforme de recrutement pour les chauffeurs de voiture de luxe. Il fallait donc présenter leur concept déjà existant, leur valeurs, leur équipe, les compétences et le matériel requis. Tout ceci de manière rapide, efficace et claire. </p>

@@ -17,7 +17,7 @@
             <p>PROJET PÉDAGOGIQUE</p>
         </div>
 
-        <div class="text_proj">
+        <div class="text_proj_dev">
             <p>Lors d’une semaine intensive de développement back end, nous avons créé une plateforme pour ceux qui n’auraient pas la main verte, à l’aide de différentes API.</p>
 
             <p>Après inscription sur le site, l’utilisateur a la possibilité d’upload une photo de sa plante, le site lui renvoie la description détaillée de celles ci et la bonne manière de s’en occuper. ans le cas ou il connait le nom de sa plante il peut directement la rechercher. Ensuite l’utilisateur créer son profil avec ses plantes et peur décider d’avoir un suivi sur son google calendar d’informations et rappels sur ses plantes pour leur assurer santé et longévité! </p>
@@ -44,7 +44,7 @@
             <p>PROJET PÉDAGOGIQUE</p>
         </div>
 
-        <div class="text_proj">
+        <div class="text_proj_dev">
             <p>Sur le thème de « l’humain et la technologie » mon équipe et moi avons du créer un dispositif digital en 2 semaines intensives. </p>
 
             <p>Nous avons donc imaginé une sorte de réseau social ultra sécurisé et censuré pour enfant. Le principe est simple : initier les enfants à la technologie et au digital en leur montrant uniquement l’aspect positif et cool ! Avec des sections comme « la cuisine » ou « le sport » ils pourraient upload des vidéos, textes, images ou autre pour s’instruire et s’entraider les uns les autres. Les enfants peuvent aussi créer des « clubs » pour retrouver leur amis et leur partager leur trouvailles.</p>

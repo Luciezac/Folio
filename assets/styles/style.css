@@ -743,6 +743,36 @@ PROJECT ONE BY ONE
     letter-spacing: 1.4px;
     color: #454545;
 }
+.text_proj_dev
+{
+    width: 60%;
+    height: 297px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    color: #454545;
+}
+.text_proj_design
+{
+    width: 60%;
+    height: 297px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    color: #454545;
+}
+.text_proj_concept
+{
+    width: 60%;
+    height: 297px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    color: #454545;
+}
 
 .images_proj_dev
 {
@@ -782,4 +812,43 @@ PROJECT ONE BY ONE
     display: flex;
     flex-direction: column;
     justify-content: center;  
+}
+
+@media all and (max-width: 400px)
+{
+    .cat1 img 
+    {
+        transform: translate(0%,5%);
+    }
+    .content_proj
+    {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        flex-direction: column;
+    }
+
+    .text_proj_dev
+    {
+        width: auto;
+        height: 535px;
+    }
+
+    .text_proj
+    {
+        width: auto;
+        height: 180px;
+    }
+
+    .text_proj_design
+    {
+        width: auto;
+        height: 400px;
+    }
+    .text_proj_concept
+    {
+        width: auto;
+        height: 650px;
+    }
 }
