@@ -18,7 +18,7 @@
             <p>ASSOCIATION DE L'ÉCOLE</p>
         </div>
 
-        <div class="text_proj">
+        <div class="text_proj_asso">
             <p>Faisant partie de l'association de l'école qui s'occupe des buffets lors des évènements, j'ai organisé avec mon équipe celui de la fêtede fin d'année. 300 invités, un traiteur, 15 bénévoles, 10 cuisiners pour les hot dog, 6h de nouritture non - stop et beaucoup de sourires. </p>
         </div>
     </div>
@@ -30,7 +30,7 @@
 
 <div class="cat2">
     <div class="bottom">
-        <h2>L'ASSO6</h2>
+        <h2>LE BDE</h2>
     </div>
     
 
@@ -42,7 +42,7 @@
             <p>LE BUREAU DES ÉLÈVES</p>
         </div>
 
-        <div class="text_proj">
+        <div class="text_proj_asso">
             <p>Étant présidente du BDE de mon lycée j'ai été à la tête de l'organisation et création : du bal des lycéens deux année consécutives, du bal des terminales, du carnavl des lycéens et collégiens ainsi que d'une récole de fond pour médecins sans frontières.</p>
         </div>
     </div>

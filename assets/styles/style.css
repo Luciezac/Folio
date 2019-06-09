@@ -750,6 +750,24 @@ PROJECT ONE BY ONE
     letter-spacing: 1.4px;
     color: #454545;
 }
+.text_proj_comm
+{
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    color: #454545;
+}
+.text_proj_asso
+{
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    color: #454545;
+}
 
 .images_proj_dev
 {
@@ -762,7 +780,7 @@ PROJECT ONE BY ONE
 {
     width: 397px;
     height: 706px;
-    margin: 3rem 4rem;
+    margin: 4rem 4rem;
 }
 
 .images_proj
@@ -771,6 +789,20 @@ PROJECT ONE BY ONE
     flex-direction: column;
     justify-content: center;
 
+}
+
+.images_proj_comm
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.images_proj_comm img
+{
+    width: 70%;
+    margin: 0 auto;
+    padding: 6rem 0rem;
 }
 .images_proj img
 {
@@ -817,6 +849,11 @@ PROJECT ONE BY ONE
         width: auto;
         height: 180px;
     }
+    .text_proj_asso
+    {
+        width: auto;
+        height: 280px;
+    }
 
     .text_proj_design
     {
@@ -827,6 +864,17 @@ PROJECT ONE BY ONE
     {
         width: auto;
         height: 725px;
+    }
+    .images_proj_comm img
+    {
+        width: 70%;
+        margin: 0 auto;
+        padding: 1rem 0rem;
+    }
+    .text_proj_comm
+    {
+        width: auto;
+        height: 700px;
     }
 }
 
@@ -930,4 +978,21 @@ PROJECT ONE BY ONE
     top: 40px;
     left: 23px;
     z-index: -5;
+}
+
+@media all and (max-width: 400px)
+{
+    .illu_form
+    {
+        display:none;
+    }
+
+    .inputBlock
+    {
+        width:300px;
+    }
+    .inputBlock2
+    {
+        width:300px;
+    }
 }

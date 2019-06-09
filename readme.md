@@ -1,6 +1,6 @@
 # Lucie Zaccardi's Portfolio 
 
-This project presents the numberous and diverse project Luce has made in the past years.
+This project presents the numberous and diverse projects Lucie has made in the past years.
 
 # Designer and Developer 
 
@@ -25,6 +25,10 @@ Lucie Zaccardi the Developper.
 - PHP
 - CSS
 - MySql
+
+## Link Github
+
+https://github.com/Luciezac/Folio
 
 ## Author
 

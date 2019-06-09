@@ -71,7 +71,7 @@ include 'views/partials/header.php';
 
     <div class="contact_form">
 
-        <div>
+        <div class="one">
             <h2>Travaillons ensemble!</h2>
         </div>
 
@@ -110,7 +110,7 @@ include 'views/partials/header.php';
                         <?php endif; ?>
                 </div>
 
-                <input class="inputBlock2" type="submit" value="ENVOYÉ">
+                <input class="inputBlock2" type="submit" value="ENVOYER">
 
             </div>
         </form>
