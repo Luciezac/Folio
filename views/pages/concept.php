@@ -44,7 +44,7 @@
             <p>PROJET PÉDAGOGIQUE</p>
         </div>
 
-        <div class="text_proj_dev">
+        <div class="text_proj_concept">
             <p>Sur le thème de « l’humain et la technologie » mon équipe et moi avons du créer un dispositif digital en 2 semaines intensives. </p>
 
             <p>Nous avons donc imaginé une sorte de réseau social ultra sécurisé et censuré pour enfant. Le principe est simple : initier les enfants à la technologie et au digital en leur montrant uniquement l’aspect positif et cool ! Avec des sections comme « la cuisine » ou « le sport » ils pourraient upload des vidéos, textes, images ou autre pour s’instruire et s’entraider les uns les autres. Les enfants peuvent aussi créer des « clubs » pour retrouver leur amis et leur partager leur trouvailles.</p>

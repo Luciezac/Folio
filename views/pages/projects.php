@@ -5,7 +5,7 @@
 <!-- COMMUNICATION -->
 <div class="main">
     <div class="column1">
-        <img class="illu_project_comm" src="<?= URL ?>assets/images/com_illu.svg" alt="illu comm">
+        <img class="illu_project" src="<?= URL ?>assets/images/com_illu.svg" alt="illu comm">
     </div>
 
     <div class="column2">
@@ -18,7 +18,7 @@
 <!-- DEV -->
 <div class="main">
     <div class="column1">
-        <img class="illu_project_dev" src="<?= URL ?>assets/images/dev_illu.svg" alt="illu dev">
+        <img class="illu_project" src="<?= URL ?>assets/images/dev_illu.svg" alt="illu dev">
     </div>
 
     <div class="column2">
@@ -31,7 +31,7 @@
 <!-- DESIGN -->
 <div class="main">
     <div class="column1">
-        <img class="illu_project_design" src="<?= URL ?>assets/images/design_illu.svg" alt="illu design">
+        <img class="illu_project" src="<?= URL ?>assets/images/design_illu.svg" alt="illu design">
     </div>
 
     <div class="column2">
@@ -44,7 +44,7 @@
 <!-- CONCEPT -->
 <div class="main">
     <div class="column1">
-        <img class="illu_project_concept" src="<?= URL ?>assets/images/concept.svg" alt="illu concept">
+        <img class="illu_project" src="<?= URL ?>assets/images/concept.svg" alt="illu concept">
     </div>
 
     <div class="column2">
@@ -57,7 +57,7 @@
 <!-- EVENT -->
 <div class="main">
     <div class="column1">
-        <img class="illu_project_event" src="<?= URL ?>assets/images/event_illu.svg" alt="illu event">
+        <img class="illu_project" src="<?= URL ?>assets/images/event_illu.svg" alt="illu event">
     </div>
 
     <div class="column2">

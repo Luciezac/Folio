@@ -93,6 +93,11 @@ header
         flex-direction: column;
         margin-top: 0px;
     }
+
+    .logo
+    {
+        margin-top: 0px;
+    }
     .name
     {
        font-size: 12px; 
@@ -126,7 +131,7 @@ PROJECTS PRESENTATION
 
 .column1
 {
-    width: 40%;
+    width: 50%;
     height: 40%;   
     margin-top: 90px;
 }
@@ -153,41 +158,17 @@ PROJECTS PRESENTATION
     .column1
     {
         margin-top:0px;
+        width: 100%;
+    height: 0%;
     }
     .column2
     {
         width:auto;
-        margin-top: 150px;
     }
 }
-.illu_project_event
+.illu_project
 {
-    width: 582px;
-    height: 513px;
-}
-
-.illu_project_comm
-{
-    width: 614px;
-    height: 404px;   
-}
-
-.illu_project_dev
-{
-    width: 613px;
-    height: 402px;
-}
-
-.illu_project_concept
-{
-    width: 583px;
-    height: 440px;
-}
-
-.illu_project_design
-{
-    width: 642px;
-    height: 421px;
+    width: 100%;
 }
 
 .number_project
@@ -849,6 +830,6 @@ PROJECT ONE BY ONE
     .text_proj_concept
     {
         width: auto;
-        height: 650px;
+        height: 725px;
     }
 }
